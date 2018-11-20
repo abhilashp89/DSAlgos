@@ -17,6 +17,9 @@ public class LinkedList  implements Cloneable {
 		this.head=newNode;
 	}
 	
+	public void setHead(Node node){
+		this.head=node;
+	}
 	public int length() {
 		int length=0;
 		
