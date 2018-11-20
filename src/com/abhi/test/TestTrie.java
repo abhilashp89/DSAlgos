@@ -13,7 +13,7 @@ public class TestTrie {
 		trie.insert("abxy");
 		trie.insert("abxyz");
 		
-		System.out.println(trie.numOfWordsWithPrefix("abxyz"));
+		System.out.println(trie.numOfWordsWithPrefix("ab"));
 
 	}
 
